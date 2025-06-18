@@ -1,0 +1,70 @@
+{
+  "tutorials": [
+    {
+      "id": "trollstore-install",
+      "title": "TrollStore 巨魔安装完整教程",
+      "description": "详细讲解TrollStore的安装方法，支持iOS 14.0-17.0系统",
+      "category": "TrollStore",
+      "tags": ["TrollStore", "越狱", "安装教程"],
+      "image": "/images/trollstore-icon.jpg",
+      "publishDate": "2024-12-15",
+      "readTime": "5分钟",
+      "featured": true,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3NDUzNzg2Mw==&mid=2247495412&idx=3&sn=f932ed8cfd432468309f47314b74a312",
+      "content": "TrollStore是iOS系统上最强大的应用管理工具，支持永久安装IPA文件..."
+    },
+    {
+      "id": "trollstore-apps",
+      "title": "TrollStore 必备应用推荐",
+      "description": "精选TrollStore平台最实用的应用和工具，提升iOS使用体验",
+      "category": "TrollStore",
+      "tags": ["TrollStore", "应用推荐", "工具"],
+      "image": "/images/ios-dev-icon.png",
+      "publishDate": "2024-12-10",
+      "readTime": "8分钟",
+      "featured": true,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3NDUzNzg2Mw==&mid=2247495412&idx=1&sn=b30bc3770cca355742f66696f81148bc",
+      "content": "为TrollStore用户精选的最实用应用集合..."
+    },
+    {
+      "id": "ios-jailbreak",
+      "title": "iOS越狱工具大全",
+      "description": "多巴胺、checkra1n等主流越狱工具的使用教程",
+      "category": "越狱",
+      "tags": ["越狱", "多巴胺", "iOS16"],
+      "image": "/images/jailbreak-tools.jpg",
+      "publishDate": "2024-12-05",
+      "readTime": "10分钟",
+      "featured": false,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3NDUzNzg2Mw==&mid=2247496511&idx=1&sn=0aa6a7a5dca4e04b02f9d66165d5fd31",
+      "content": "详细介绍各种iOS越狱工具的特点和使用方法..."
+    },
+    {
+      "id": "app-signing",
+      "title": "IPA自签名工具教程",
+      "description": "无需越狱，使用自签工具安装任意IPA应用",
+      "category": "签名",
+      "tags": ["自签", "IPA", "sideloadly"],
+      "image": "/images/ios-dev-icon.png",
+      "publishDate": "2024-11-28",
+      "readTime": "6分钟",
+      "featured": false,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3NDUzNzg2Mw==&mid=2247490320&idx=1&sn=cfbffc15f988dcb5aa5d14606931c759",
+      "content": "教你如何使用各种自签工具来安装IPA应用..."
+    },
+    {
+      "id": "ios-tips",
+      "title": "iOS使用技巧集锦",
+      "description": "Safari技巧、动态壁纸、微信美化等实用小技巧",
+      "category": "技巧",
+      "tags": ["iOS技巧", "Safari", "美化"],
+      "image": "/images/ios-dev-icon.png",
+      "publishDate": "2024-11-20",
+      "readTime": "4分钟",
+      "featured": false,
+      "url": "#",
+      "content": "分享各种实用的iOS使用技巧和小窍门..."
+    }
+  ],
+  "categories": ["TrollStore", "越狱", "签名", "技巧", "工具"]
+}

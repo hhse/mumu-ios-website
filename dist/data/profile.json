@@ -1,0 +1,64 @@
+{
+  "profile": {
+    "name": "木木iOS分享",
+    "title": "iOS黑科技分享者",
+    "avatar": "/images/avatar.png",
+    "bio": "专注于iOS越狱、TrollStore、应用签名等黑科技领域，为用户带来最新、最实用的iOS技术教程和工具分享。",
+    "location": "中国",
+    "website": "https://mumu-ios.github.io",
+    "social": {
+      "bilibili": {
+        "name": "木木iOS分享",
+        "url": "https://space.bilibili.com/your-uid",
+        "followers": "2.3万"
+      },
+      "wechat": {
+        "name": "木木iOS分享",
+        "qrcode": "/images/wechat-qr.png"
+      },
+      "github": {
+        "name": "mumu-ios",
+        "url": "https://github.com/mumu-ios"
+      }
+    },
+    "stats": {
+      "tutorials": 50,
+      "tools": 30,
+      "videos": 25,
+      "totalViews": "100万+"
+    },
+    "skills": [
+      "iOS越狱技术",
+      "TrollStore应用开发",
+      "IPA签名与分发",
+      "iOS逆向工程",
+      "移动应用安全",
+      "Swift/Objective-C开发"
+    ],
+    "expertise": [
+      {
+        "name": "TrollStore",
+        "level": "专家",
+        "description": "深度掌握TrollStore的安装、配置和应用开发"
+      },
+      {
+        "name": "iOS越狱",
+        "level": "高级",
+        "description": "熟悉各种越狱工具和插件开发"
+      },
+      {
+        "name": "应用签名",
+        "level": "专家",
+        "description": "精通各种IPA签名方法和工具使用"
+      }
+    ]
+  },
+  "siteConfig": {
+    "title": "木木iOS分享 - iOS黑科技专家",
+    "description": "专业的iOS黑科技分享平台，提供TrollStore教程、越狱工具、应用签名等技术内容",
+    "keywords": ["iOS", "TrollStore", "越狱", "黑科技", "应用签名", "教程"],
+    "author": "木木iOS分享",
+    "themeColor": "#0A84FF",
+    "backgroundColor": "#121212"
+  }
+}

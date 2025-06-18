@@ -1,0 +1,89 @@
+{
+  "tools": [
+    {
+      "id": "trollstore",
+      "title": "TrollStore",
+      "description": "iOS最强应用安装器，支持永久安装IPA文件，无需重签",
+      "category": "核心工具",
+      "tags": ["TrollStore", "应用安装", "越狱"],
+      "image": "/images/trollstore-icon.jpg",
+      "downloadUrl": "https://github.com/opa334/TrollStore",
+      "platform": "iOS 14.0-17.0",
+      "featured": true,
+      "price": "免费",
+      "rating": 5,
+      "features": ["永久安装", "无需重签", "系统级权限", "应用管理"]
+    },
+    {
+      "id": "sideloadly",
+      "title": "Sideloadly",
+      "description": "专业的IPA签名工具，支持多种签名方式，界面简洁易用",
+      "category": "签名工具",
+      "tags": ["签名", "IPA", "自签"],
+      "image": "/images/ios-dev-icon.png",
+      "downloadUrl": "https://sideloadly.io/",
+      "platform": "Windows/Mac",
+      "featured": true,
+      "price": "免费",
+      "rating": 4.8,
+      "features": ["多平台支持", "批量签名", "证书管理", "设备管理"]
+    },
+    {
+      "id": "altstore",
+      "title": "AltStore",
+      "description": "无需越狱的应用商店，支持Delta模拟器等独家应用",
+      "category": "应用商店",
+      "tags": ["AltStore", "模拟器", "Delta"],
+      "image": "/images/ios-dev-icon.png",
+      "downloadUrl": "https://altstore.io/",
+      "platform": "iOS 12.2+",
+      "featured": true,
+      "price": "免费",
+      "rating": 4.6,
+      "features": ["无需越狱", "Delta模拟器", "应用更新", "简单安装"]
+    },
+    {
+      "id": "ipa-installer",
+      "title": "IPA Installer",
+      "description": "轻量级IPA安装工具，支持无线安装和管理",
+      "category": "安装工具",
+      "tags": ["IPA", "安装", "管理"],
+      "image": "/images/ios-dev-icon.png",
+      "downloadUrl": "#",
+      "platform": "iOS",
+      "featured": false,
+      "price": "免费",
+      "rating": 4.2,
+      "features": ["无线安装", "应用管理", "备份恢复", "快速安装"]
+    },
+    {
+      "id": "filza",
+      "title": "Filza",
+      "description": "iOS文件管理器，支持访问系统文件和应用数据",
+      "category": "文件管理",
+      "tags": ["文件管理", "系统访问", "Filza"],
+      "image": "/images/jailbreak-tools.jpg",
+      "downloadUrl": "#",
+      "platform": "iOS (需越狱)",
+      "featured": false,
+      "price": "免费",
+      "rating": 4.7,
+      "features": ["系统文件访问", "文件编辑", "应用数据", "备份功能"]
+    },
+    {
+      "id": "dopamine",
+      "title": "Dopamine",
+      "description": "iOS 15-16越狱工具，支持A12-A15设备的半完美越狱",
+      "category": "越狱工具",
+      "tags": ["越狱", "多巴胺", "iOS16"],
+      "image": "/images/jailbreak-tools.jpg",
+      "downloadUrl": "https://github.com/opa334/Dopamine",
+      "platform": "iOS 15.0-16.6.1",
+      "featured": true,
+      "price": "免费",
+      "rating": 4.9,
+      "features": ["半完美越狱", "A12-A15支持", "稳定性好", "活跃维护"]
+    }
+  ],
+  "categories": ["核心工具", "签名工具", "应用商店", "安装工具", "文件管理", "越狱工具"]
+}

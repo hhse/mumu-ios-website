@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全局样式 */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  background: #121212;
+  color: #FFFFFF;
+  min-height: 100vh;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(10, 132, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(64, 200, 82, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(10, 132, 255, 0.05) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* 像素字体 */
+.pixel-font {
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* 磨砂玻璃效果 */
+.glass-effect {
+  background: rgba(44, 44, 46, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card {
+  background: rgba(44, 44, 46, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  background: rgba(44, 44, 46, 0.8);
+  border-color: rgba(10, 132, 255, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(10, 132, 255, 0.1);
+}
+
+/* 按钮效果 */
+.ios-button {
+  background: #0A84FF;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.ios-button:hover {
+  background: #2094FF;
+  box-shadow: 0 8px 25px rgba(10, 132, 255, 0.4);
+  transform: translateY(-1px);
+}
+
+.ios-button:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 15px rgba(10, 132, 255, 0.3);
+}
+
+/* 像素装饰元素 */
+.pixel-decoration {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* 加载动画 */
+@keyframes pixelPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.pixel-loading {
+  animation: pixelPulse 1.5s ease-in-out infinite;
+}
+
+/* 页面过渡效果 */
+.page-transition {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(44, 44, 46, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(10, 132, 255, 0.6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(10, 132, 255, 0.8);
+}
+
+/* 工具提示 */
+.tooltip {
+  position: relative;
+}
+
+.tooltip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 1000;
+}
+
+.tooltip:hover::after {
+  opacity: 1;
+}
+
+/* 特殊效果 */
+.glow-text {
+  text-shadow: 0 0 10px rgba(10, 132, 255, 0.5);
+}
+
+.cyber-border {
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, rgba(10, 132, 255, 0.1), rgba(64, 200, 82, 0.1)) border-box;
+  border-image: linear-gradient(135deg, #0A84FF, #40C852) 1;
+}
+
+/* 响应式文本 */
+.responsive-text {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+}
+
+.responsive-title {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%
+  }
+
+  .dark {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%
+  }
+}
+
+
+
+img {
+  object-position: top;
+}
